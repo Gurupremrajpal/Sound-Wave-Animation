@@ -5,7 +5,7 @@
 <a href="https://gurupremrajpal.github.io/Sound-Wave-Animation/Sound%20Wave%20Animation/sound_wave.html"> Website </a>
 <br>
 <br>
-k
+
 # Tech Stack used - 
 Front-end : HTML, CSS <br>
 
