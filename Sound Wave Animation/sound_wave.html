@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			ont-family: 'Rancho', cursive;
+		}
+
+		html{
+			font-size: 62.5%; //1rem =10px
+		}
+
+		.center_div{
+			width: 100vw;
+			height: 100vh;
+			background-color: #1e272e;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+		.wave{
+			width: 0.4rem;
+			height: 6rem;
+			background-color: #4bcffa;
+			margin: 0 0.4rem;
+			border-radius: 0.4rem;
+			animation: waves 1s linear infinite; /*waves is a name of animation.*/
+
+
+		}
+
+		@keyframes waves{
+			0%{
+				transform: scale(0); /*scale(0) means there is no width and height*/
+			}
+			50%{
+				transform: scale(1); /*scale(1)waites for 1sec*/ 
+			}
+			100%{
+				transform: scale(0);
+			}
+		}
+
+	    .wave:nth-child(2){
+			animation-delay: 0.1s;
+		}
+		.wave:nth-child(3){
+			animation-delay: 0.2s;
+		}
+		.wave:nth-child(4){
+			animation-delay: 0.3s;
+		}
+		.wave:nth-child(5){
+			animation-delay: 0.4s;
+		}
+		.wave:nth-child(6){
+			animation-delay: 0.5s;
+		}
+		.wave:nth-child(7){
+			animation-delay: 0.6s;
+		}
+		.wave:nth-child(8){
+			animation-delay: 0.7s;
+		}
+		.wave:nth-child(9){
+			animation-delay: 0.8s;
+		}
+		.wave:nth-child(10){
+			animation-delay: 0.9s;
+		}
+
+		.Name{
+			color: white;
+			position: absolute;
+			top: 60%;
+			left: 45%;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="center_div">
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+	</div>
+	<div class="Name">
+		<h1> By:- Guruprem Rajpal
+		</h1>
+	</div>
+
+</body>
+</html>
